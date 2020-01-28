@@ -28,7 +28,7 @@ public_html/*
 !public_html/core/
 public_html/core/*
 !public_html/favicon.ico
-!public_html/index.html
+!public_html/.gitkeep
 
 # Assets
 !public_html/assets/
