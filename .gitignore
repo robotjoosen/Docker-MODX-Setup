@@ -1,0 +1,63 @@
+#ignore package and IDE folders
+node_modules/
+vendor/
+.idea/
+
+/*
+.DS_Store
+!README.md
+!CHANGELOG.md
+!composer.json
+!composer.lock
+!package.json
+!package-lock.json
+!yarn.lock
+!gulpfile.js
+!.gitignore
+!.babelrc
+!sample.env
+!sample.db.env
+
+# Resource
+!src/
+!docs/
+
+# Public HTML
+!public_html/
+public_html/*
+!public_html/core/
+public_html/core/*
+!public_html/favicon.ico
+!public_html/index.html
+
+# Assets
+!public_html/assets/
+public_html/assets/uploads/
+public_html/assets/themes/**/css
+public_html/assets/themes/**/js
+!public_html/assets/components/**/vendor/
+
+# Cache
+public_html/assets/image-cache/
+public_html/assets/cache
+public_html/assets/components/phpthumbof/cache
+
+# Packages
+!public_html/core/packages/
+public_html/core/packages/*/
+
+# Components
+!public_html/core/components/
+!public_html/core/components/**/
+
+#Gitify
+!public_html/.gitify
+!_backup/
+!_data/
+
+#Docker
+!docker-compose.yml
+!docker/
+docker/*
+!docker/nginx/
+!docker/php-fpm/

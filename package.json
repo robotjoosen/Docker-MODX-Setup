@@ -1,0 +1,59 @@
+{
+  "name": "modx-docker-setup",
+  "version": "1.0.0",
+  "description": "Default docker setup for MODX project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robotjoosen/modx-docker-setup.git"
+  },
+  "keywords": [
+    "MODX",
+    "Docker",
+    "Website",
+    "Setup"
+  ],
+  "author": "Roald Joosen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robotjoosen/modx-docker-setup/issues"
+  },
+  "homepage": "https://github.com/robotjoosen/modx-docker-setup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "dotenv": "^8.2.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-exec": "^4.0.0",
+    "gulp-fontello": "^0.5.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.7.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "require-globify": "^1.4.1",
+    "stringify": "^5.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "yargs": "latest"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "bluebird": "^3.7.2",
+    "css-element-queries": "^1.2.3",
+    "custom-event-polyfill": "^1.0.7",
+    "es6-promise": "^4.2.8",
+    "lodash": "^4.17.15",
+    "mustache": "^3.2.1",
+    "nodelist-foreach-polyfill": "^1.2.0",
+    "normalize-scss": "^7.0.1"
+  }
+}
