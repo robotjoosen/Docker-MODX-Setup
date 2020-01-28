@@ -70,3 +70,26 @@ When you have access you can run Gitify modx:install.
 ➜ /opt/Gitify/Gitify modx:install
 ```
 __Small side note: when asked for the database hostname you need to enter `mysql:3306`.__
+
+## Daily usage
+
+### Docker
+When using docker you need to start Nginx proxy. Then start your docker contains with docker-compose.
+
+| command | description
+| --- | ---
+| `docker start nginx-proxy` | Start Nginx proxy, only needed when you've stopped it.
+| `docker-compose start` | Start your containers
+| `docker-compose stop` | Stop containers when you are done
+
+### Gulp
+To make my life easier i use Gulp to compile SCSS and JS. But i also use it to clear MODX cache 
+and backup the entire website with Gitify. 
+
+| command | description
+| --- | ---
+| `gulp` | Listen to default theme, use --theme to select different theme
+| `gulp build` | Compile Javascript and SCSS in your theme folder
+| `gulp backup` | Backup entire website with Gitify backup
+| `gulp refresh` | Clear MODX cache
+| `gulp --tasks` | Show all tasks
