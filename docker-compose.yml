@@ -21,7 +21,7 @@ services:
     volumes:
       - .:/application
     env_file:
-      - .db.env
+      - .env
     ports:
       - "3306:3306"
     command: mysqld --sql-mode=NO_ENGINE_SUBSTITUTION
