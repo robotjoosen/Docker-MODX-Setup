@@ -22,7 +22,9 @@ In this case we we'll be using [nginx-proxy by JWilder](https://github.com/jwild
 
 Installation can be done by the following command:
 ```zsh
-➜ docker run -d -p 80:80 -v /var/run/docker.sock:/tmp/docker.sock:ro jwilder/nginx-proxy
+➜ docker network create nginx-proxy
+➜ docker run --name nginx-proxy -d -p 80:80 -v /var/run/docker.sock:/tmp/docker.sock:ro jwilder/nginx-proxy
+➜ docker network connect nginx-proxy nginx-proxy
 ```
 
 ### Add domain name to hosts file
