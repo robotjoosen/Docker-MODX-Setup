@@ -40,10 +40,9 @@ Add the following line to your hosts file. Don't forget to change local.domain.t
 ```
 
 ### Setting up environment files
-Now we are ready to setup our environment files. Copy sample.db.env and sample.env and remove the word sample.
+Now we are ready to setup our environment files. Copy sample.env and remove the word sample.
 This can be done with the following command:
 ```zsh
-➜ cp sample.db.env .db.env
 ➜ cp sample.env .env
 ```
 
@@ -71,7 +70,7 @@ When you have access you can run Gitify modx:install.
 ➜ cd public_html
 ➜ /opt/Gitify/Gitify modx:install
 ```
-__Small side note: when asked for the database hostname you need to enter `mysql:3306`.__
+__Small side note: when asked for the Database Host you need to enter `mysql:3306`.__
 
 ## Daily usage
 
