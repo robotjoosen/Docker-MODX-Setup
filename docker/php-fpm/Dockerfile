@@ -9,6 +9,11 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get -y --no-install-recommends install php7.4-mysql php7.4-bcmath php7.4-bz2 php7.4-gd php-imagick php7.4-soap php-yaml \
     && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 
+# install locales
+RUN apt-get clean && apt-get update && apt-get install -y locales \
+    && locale-gen en_US.UTF-8 \
+    && locale-gen nl_NL.UTF-8
+
 # install vim
 RUN apt-get clean && apt-get update && apt-get install -y vim
 
