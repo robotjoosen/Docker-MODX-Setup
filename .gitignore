@@ -15,8 +15,7 @@ vendor/
 !gulpfile.js
 !.gitignore
 !.babelrc
-!sample.env
-!sample.db.env
+!.env.sample
 
 # Resource
 !src/
