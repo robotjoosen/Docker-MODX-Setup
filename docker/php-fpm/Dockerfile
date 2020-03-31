@@ -14,7 +14,9 @@ RUN apt-get update \
     && apt-get -y install git \
     && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 
-COPY --from=composer /usr/bin/composer /usr/bin/composer
+# install composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
+
 RUN cd /opt \
     && git clone https://github.com/modmore/Gitify.git Gitify \
     && cd Gitify \
