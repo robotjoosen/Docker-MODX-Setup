@@ -8,7 +8,7 @@ The following versions are being used for this LEMP setup
 
 | Name | Version | Comment
 | --- | ---: | ---
-| PHP | 7.2 | Currently most used version
+| PHP | 7.4 | Currently most used version
 | MySQL | 5.7 | Lighter on memory than version 8
 | NGINX | latest | Alpine Linux based, small footprint 
 
