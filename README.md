@@ -40,10 +40,10 @@ Add the following line to your hosts file. Don't forget to change local.domain.t
 ```
 
 ### Setting up environment files
-Now we are ready to setup our environment files. Copy sample.env and remove the word sample.
+Now we are ready to setup our environment files. Copy .env.sample and remove the word sample.
 This can be done with the following command:
 ```zsh
-➜ cp sample.env .env
+➜ cp .env.sample .env
 ```
 
 Now open both files and update the fields to your settings. Even though it is a local development server
