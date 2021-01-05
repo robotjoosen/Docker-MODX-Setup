@@ -46,7 +46,7 @@
     "yargs": "latest"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bluebird": "^3.7.2",
     "css-element-queries": "^1.2.3",
     "custom-event-polyfill": "^1.0.7",
