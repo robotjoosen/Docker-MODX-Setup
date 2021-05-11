@@ -51,7 +51,7 @@
     "css-element-queries": "^1.2.3",
     "custom-event-polyfill": "^1.0.7",
     "es6-promise": "^4.2.8",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "mustache": "^4.0.1",
     "nodelist-foreach-polyfill": "^1.2.0",
     "normalize-scss": "^7.0.1"
